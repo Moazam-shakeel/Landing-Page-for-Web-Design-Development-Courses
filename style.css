@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+/* <---------------------------------navbar---------------------------------> */
+#navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-box span{
+    color: #FF7006;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.nav-box a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    transition: all;
+    transition-duration: 1.2s;
+}
+.nav-box a:hover{
+    color: #FF7006;
+    font-size: 25px;
+}
+.nav-box input{
+    padding: 6px 12px;
+    font-size: 1rem;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 1.2s;
+}
+.nav-box button{
+    padding: 4px 12px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: #FF7006;
+    border: 1px solid #FF7006;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all;
+    transition-duration: 1.2s;
+}
+/* <---------------------------------transition---------------------------------> */
+#navbar input:focus{
+    outline: none;
+    border-color: #FF7006;
+}
+#navbar button:hover{
+    background-color: transparent;
+    font-size: 20px;
+}
+/* <---------------------------------hero section---------------------------------> */
+#hero{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+#hero-contant{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+#hero-box1{
+    width: 100%;
+    padding: 6px 50px;
+}
+#hero-box1 h1{
+    font-size: 3.7rem;
+    color: white;
+}
+#hero-box1 h1 span{
+    font-size: 4.7rem;
+    color: #FF7006;
+}
+#hero-box1 button{
+    margin-top: 20px;
+    padding: 7px 40px;
+    background-color: #FF7006;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 900;
+    transition: all;
+    transition-duration: 1.2s;
+}
+#hero-box1 p{
+    margin-top: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight:lighter;
+}
+#hero-box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-box{
+    color: white;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.8) 
+}
+#form-bc{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+#login-sym{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+}
+#login-sym i{
+    margin: 0 6.9px;
+    transition: all;
+    transition-duration: 1s;
+}
+#form-bc button{
+    width: 100%;
+    padding: 6px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#f-b1{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#form-bc input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-bottom: 1px solid #FF7006;
+    margin-top: 15px;
+    padding: 11px 10px;
+    font-size: larger;
+}
+#f-b2{
+    margin-top: 15px;
+    background-color: #FF7006;
+    transition: all;
+    transition-duration: 1s;
+}
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    margin-top: 15px;
+}
+#signup-form a{
+    text-decoration: none;
+    color: #FF7006;
+}
+#signup-form span{
+    margin-top: 10px;
+}
+
+/* <---------------------------------transition---------------------------------> */
+
+#hero-box1 button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FF7006;
+    font-weight: 900;
+    border: 1px solid #FF7006;
+    font-size: 27px;
+}
+#form-bc input:focus{
+    outline: none;
+}
+#f-b2:hover{
+    background-color: transparent;
+    color: #FF7006;
+    border-color: 1px solid black;
+}
+#login-sym i:hover{
+    color: #FF7006;
+}
